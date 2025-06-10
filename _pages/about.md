@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: pages
 title: about
 permalink: /
 description: About Shishir K. Shah
