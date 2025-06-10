@@ -5,7 +5,7 @@ permalink: /
 description: About Shishir K. Shah
 nav: true
 nav_order: 1
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.uh.edu/nsm/computer-science/'>Professor and Chair of Computer Science</a>.
 
 profile:
   align: right
@@ -30,9 +30,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 <div class="about-main">
-  <img src="{{ '/assets/img/team/Shishir.jpg' | relative_url }}" alt="Shishir K. Shah" class="about-photo">
-  <h1 class="about-name">Shishir K. Shah</h1>
-  <div class="about-title">Professor and Chair, <a href="https://www.uh.edu/nsm/computer-science/">Department of Computer Science</a></div>
+
+[//]: # (  <img src="{{ '/assets/img/team/Shishir.jpg' | relative_url }}" alt="Shishir K. Shah" class="about-photo">)
+[//]: # (  <h1 class="about-name">Shishir K. Shah</h1>)
+[//]: # (  <div class="about-title">Professor and Chair, <a href="https://www.uh.edu/nsm/computer-science/">Department of Computer Science</a></div>)
 <!--
     <div class="about-contact">
       <span>Email: <a href="mailto:sshah@central.uh.edu">sshah@central.uh.edu</a></span><br>
@@ -57,8 +58,10 @@ latest_posts:
   </div>
 </div>
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+[//]: # (Write your biography here. Tell the world about yourself. Link to your favorite [subreddit]&#40;http://reddit.com&#41;. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+[//]: # ()
+[//]: # (Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page]&#40;/al-folio/publications/&#41; automatically.)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+[//]: # ()
+[//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;https://fontawesome.com/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
