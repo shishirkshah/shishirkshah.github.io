@@ -3,18 +3,18 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-",
-    title: "",
+    id: "nav-about",
+    title: "about",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-",
-          title: "",
+  },{id: "nav-about",
+          title: "about",
           description: "About Shishir K. Shah",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/about";
+            window.location.href = "/";
           },
         },{id: "nav-publications",
           title: "publications",
