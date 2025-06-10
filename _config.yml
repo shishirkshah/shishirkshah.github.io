@@ -186,8 +186,8 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-#include: ["_pages", "_scripts"]
-include: ['_pages']
+include: ["_pages", "_scripts"]
+# include: ['_pages']
 exclude:
   - _pages/blog.md
   - _pages/profiles.md
