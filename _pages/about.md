@@ -1,7 +1,7 @@
 ---
-layout: pages
-title: about
-permalink: /
+layout: about
+title: 
+permalink: /about
 description: About Shishir K. Shah
 nav: true
 nav_order: 1
