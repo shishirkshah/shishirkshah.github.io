@@ -2,21 +2,24 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Shishir K. Shah, University of Houston # the website title (if blank, full name will be used instead)
+title: Shishir K. Shah # the website title (if blank, full name will be used instead)
 first_name: Shishir
 middle_name: K.
 last_name: Shah
+email: sshah@central.uh.edu
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me via email at sshah@central.uh.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Quantitative Imaging Laboratory's (QIL) research is focused on basic and applied research in computer vision, 
+  image understanding, pattern recognition, and quantitative microscopy.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: computer-vision, machine learning, image-understanding, pattern-recognition, quantitative-microscopy # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🔬  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://shishirkshah.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -86,8 +89,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: News # blog_name will be displayed in your blog page
+blog_nav_title: news # your blog must have a title for it to be displayed in the nav bar
+blog_description: News and Updates
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -143,14 +147,26 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
+#  books:
+#    output: true
   news:
     defaults:
       layout: post
     output: true
+    permalink: /news/:path/
   projects:
     output: true
+    permalink: /projects/:path/
+
+announcements:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -170,7 +186,8 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+#include: ["_pages", "_scripts"]
+include: ['_pages']
 exclude:
   - _pages/blog.md
   - _pages/profiles.md
@@ -198,6 +215,7 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
+  - .git
 
 # Plug-ins
 plugins:
@@ -235,7 +253,10 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+#  exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
 
 # -----------------------------------------------------------------------------
 # Terser
