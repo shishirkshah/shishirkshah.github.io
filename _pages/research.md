@@ -7,7 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-
 # Human Motion and Behavior Analysis
 
 <img src="{{ '/assets/img/research/5floor.png' | relative_url }}" alt="Human Motion Analysis" class="research-image-float">
