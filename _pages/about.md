@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 description: About Shishir K. Shah
-nav: true
+nav: false
 nav_order: 1
 subtitle: Professor and Chair, <a href='https://www.uh.edu/nsm/computer-science/'>Department of Computer Science</a>.
 
