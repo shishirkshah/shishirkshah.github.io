@@ -14,7 +14,7 @@ ninja.data = [{
           description: "About Shishir K. Shah",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/about";
+            window.location.href = "/about/";
           },
         },{id: "nav-publications",
           title: "publications",
