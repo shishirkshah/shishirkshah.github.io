@@ -42,9 +42,7 @@
       "endDate": "1998-05-31",
       "score": "10",
       "courses": ["Computer Vision, Pattern Recognition, Statistical Methods"]
-    }
-  ],
-  "education": [
+    },
     {
       "institution": "University of Texas at Austin",
       "location": "Austin, TX",
@@ -55,9 +53,7 @@
       "endDate": "1995-05-31",
       "score": "10",
       "courses": ["Computer Vision, Pattern Recognition"]
-    }
-  ],
-  "education": [
+    },
     {
       "institution": "University of Texas at Austin",
       "location": "Austin, TX",
