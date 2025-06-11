@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
-          description: "Recent publications.",
+  },{id: "nav-cv",
+          title: "cv",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-research",
           title: "research",
@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Recent publications.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-teaching",
           title: "teaching",
