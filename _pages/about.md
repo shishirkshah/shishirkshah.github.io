@@ -1,7 +1,7 @@
 ---
 layout: default
 title: about
-permalink: /about
+permalink: /about/
 description: About Shishir K. Shah
 nav: true
 nav_order: 1
