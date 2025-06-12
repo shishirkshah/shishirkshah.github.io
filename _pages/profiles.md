@@ -43,6 +43,7 @@ profiles:
     image_circular: false # crops the image to make it circular
 
 ---
+>
 ## Past Members
 | Name              | Degree | Year of Graduation |
 |-------------------|--------|--------------------|
