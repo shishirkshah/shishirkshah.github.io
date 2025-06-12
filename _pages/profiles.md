@@ -43,7 +43,8 @@ profiles:
     image_circular: false # crops the image to make it circular
 
 ---
-<p> Past Members</p>
+<div class="container">
+<h2> Past Member</h2>
 <table>
   <thead>
     <tr>
@@ -85,5 +86,5 @@ profiles:
     </tr>
   </tbody>
 </table>
+</div>
 
-## Past Members
