@@ -1,7 +1,6 @@
 ---
 ---
 @incollection{merchant2023object,
-  selected={true},
   title={Object measurement},
   author={Merchant, Fatima A and Shah, Shishir K and Castleman, Kenneth R},
   booktitle={Microscope Image Processing},
@@ -50,7 +49,11 @@
   author={Nguyen, Vuong D and Khaldi, Khadija and Nguyen, Dung and Mantini, Pranav and Shah, Shishir},
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
   pages={1041--1049},
-  year={2024}
+  year={2024},
+  html={https://openaccess.thecvf.com/content/WACV2024/html/Nguyen_Contrastive_Viewpoint-Aware_Shape_Learning_for_Long-Term_Person_Re-Identification_WACV_2024_paper.html},
+  abstract={Traditional approaches for Person Re-identification (Re-ID) rely heavily on modeling the appearance of persons. This measure is unreliable over longer durations due to the possibility for changes in clothing or biometric information. Furthermore, viewpoint changes significantly degrade the matching ability of these methods. In this paper, we propose "Contrastive Viewpoint-aware Shape Learning for Long-term Person Re-Identification" (CVSL) to address these challenges. Our method robustly extracts local and global texture-invariant human body shape cues from 2D pose using the Relational Shape Embedding branch, which consists of a pose estimator and a shape encoder built on a Graph Attention Network. To enhance the discriminability of the shape and appearance of identities under viewpoint variations, we propose Contrastive Viewpoint-aware Losses (CVL). CVL leverages contrastive learning to simultaneously minimize the intra-class gap under different viewpoints and maximize the inter-class gap under the same viewpoint. Extensive experiments demonstrate that our proposed framework outperforms state-of-the-art methods on long-term person Re-ID benchmarks.},
+  preview={cvsl-2024.png},
+  selected={true}
 }
 
 @inproceedings{biswas2023identification,
@@ -63,6 +66,7 @@
 }
 
 @article{nguyen2024attention,
+  selected={false},
   title={Attention-based shape and gait representations learning for video-based cloth-changing person re-identification},
   author={Nguyen, Vuong D and Mirza, Samiha and Mantini, Pranav and Shah, Shishir K},
   journal={arXiv preprint arXiv:2402.03716},
@@ -70,6 +74,7 @@
 }
 
 @article{mirza2024data,
+  selected={false},
   title={Data quality aware approaches for addressing model drift of semantic segmentation models},
   author={Mirza, Samiha and Nguyen, Vuong D and Mantini, Pranav and Shah, Shishir K},
   journal={arXiv preprint arXiv:2402.07258},
@@ -77,6 +82,7 @@
 }
 
 @article{nguyen2024ccpa,
+  selectec={false},
   title={Ccpa: Long-term person re-identification via contrastive clothing and pose augmentation},
   author={Nguyen, Vuong D and Shah, Shishir K},
   journal={arXiv preprint arXiv:2402.14454},
@@ -109,12 +115,17 @@
 }
 
 @inproceedings{nguyen2024acml,
-  title={Acml: Attention-based cross-modality learning for cloth-changing and occluded person re-identification},
+  title={ACML: Attention-based cross-modality learning for cloth-changing and occluded person re-identification},
   author={Nguyen, Vuong D and Mantini, Pranav and Shah, Shishir K},
   booktitle={2024 IEEE International Conference on Image Processing (ICIP)},
   pages={2396--2402},
   year={2024},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/10647794},
+  doi={https://doi.org/10.1109/ICIP51287.2024.10647794},
+  abstract={Person Re-Identification (Re-ID) aims at matching a person captured by a non-overlapping camera system. Real-world Re-ID presents challenges like clothing changes and occlusions, which limits the applicability of traditional appearance-based methods. Cloth-Changing Re-ID (CCRe-ID) methods that rely on cloth-invariant modalities, such as shape, gait, etc., ignore occlusions and fail to mine the complementary relationship across modalities. Meanwhile, methods that explicitly focus on occlusion management struggle with cloth-changing scenarios. To address these, we propose ACML: Attention-based Cross-Modality Learning, the first framework to tackle both clothing changes and occlusion in Re-ID. Our lightweight framework comprises a unified network with cascaded Cross-Attention Blocks that extracts appearance and shape features collaboratively, enhancing robustness under clothing changes, viewpoint variations, and poor illumination conditions. Inputs to the network are produced by our novel occlusion synthesis module, which not only helps exposing the model to occlusions but also guides the model to adaptively attend to informative cues and reduce noise. Experiments demonstrate the effectiveness of ACML on both CCRe-ID and occluded Re-ID datasets.},
+  preview={acml-2024.png},
+  selected={true}
 }
 
 @inproceedings{nguyen2024occlusion,
@@ -123,16 +134,24 @@
   booktitle={2024 IEEE International Joint Conference on Biometrics (IJCB)},
   pages={1--11},
   year={2024},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/10744425},
+  abstract={Video-based Person Re-Identification (Re-ID) is an important task in video surveillance analysis. Real-world video-based Re-ID commonly suffers from clothing changes and occlusions, which severely degenerates performance of traditional Re-ID methods. In this paper, we introduce a challenging yet practical task called Video-based Occluded Cloth-Changing Re-ID (VOCCRe-ID). To tackle occlusions, we propose an occlusion synthesis strategy to expose the model to real-world occlusion variations. To mitigate unreliable appearance caused by clothing changes, we couple body shape information from the normalized silhouette sequence. Then, we propose a cross-attention fusion mechanism to capture the complementary relationships between appearance and shape under occlusions, thus enhancing Re-ID robustness. In addition, since there are no dataset for VOCCRe-ID, we build the large-scale Occluded-VCCR dataset which explicitly presents occlusions and contains the most clothing variations. Extensive experiments show that we achieve SOTA performance over previous methods.},
+  doi={https://doi.org/1010.1109/IJCB62174.2024.10744425}
 }
 
 @inproceedings{mirza2024recall,
+  selected={true},
   title={Recall-Based Knowledge Distillation for Data Distribution Based Catastrophic Forgetting in Semantic Segmentation},
   author={Mirza, Samiha and Gala, Apurva and Devarakota, Pandu and Nguyen, Vuong D and Mantini, Pranav and Shah, Shishir K},
   booktitle={International Conference on Pattern Recognition},
   pages={98--113},
   year={2024},
-  organization={Springer Nature Switzerland Cham}
+  organization={Springer Nature Switzerland Cham},
+  html={https://link.springer.com/chapter/10.1007/978-3-031-78347-0_7},
+  doi={https://doi.org/10.1007/978-3-031-78347-0_7},
+  abstract={Semantic segmentation involves labeling each pixel in an image with a corresponding class label, enabling detailed scene understanding. In dynamic environments, where conditions change over time, incremental learning techniques are essential for updating segmentation models with newly acquired data. However, incremental segmentation faces the challenge of catastrophic forgetting, where models lose previously learned knowledge when trained on new data distributions. To address this, we propose a recall-based knowledge distillation approach for stable segmentation model training across dynamic environments. Our method combines the strengths of knowledge distillation and recall learning to enhance the model’s ability to recall information from previous data distributions while adapting to new ones. By reintroducing a small portion of the previous dataset during training and applying tailored distillation techniques, our approach mitigates catastrophic forgetting and improves the robustness of these models. Through comprehensive evaluations, we demonstrate the effectiveness of our approach in two scenarios: salt segmentation in seismic datasets and tumor segmentation in MRI datasets. Our method offers a promising solution for addressing the challenges of catastrophic forgetting in incremental semantic segmentation, facilitating the development of more adaptive and reliable computer vision systems in dynamic environments.},
+  preview={recall-distillation-2024.jpg}
 }
 
 @inproceedings{nguyen2024crossvit,
