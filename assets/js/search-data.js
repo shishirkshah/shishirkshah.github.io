@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
+        },{id: "nav-team",
+          title: "Team",
+          description: "Members of the Quantitative Imaging Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
         },{id: "nav-publications",
           title: "Publications",
           description: "For a complete list, see my Google Scholar page.",
