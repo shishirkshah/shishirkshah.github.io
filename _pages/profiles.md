@@ -43,6 +43,31 @@ profiles:
     image_circular: false # crops the image to make it circular
 
 ---
+<html>
+<head>
+<title>Section and Table</title>
+<style>
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
 <div class="container">
 <h2> Past Member</h2>
 <table>
@@ -87,4 +112,5 @@ profiles:
   </tbody>
 </table>
 </div>
-
+</body>
+</html>
