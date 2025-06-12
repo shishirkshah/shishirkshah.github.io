@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /research/
-title: research
+title: Research
 description: Research areas and projects in the Quantitative Imaging Lab
 nav: true
 nav_order: 3
