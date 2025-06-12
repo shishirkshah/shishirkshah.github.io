@@ -17,6 +17,7 @@ profile:
     <p>Houston, TX 77204-3010</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+paper_limit: 3 # leave blank to include all the papers
 social: true # includes social icons at the bottom of the page
 
 announcements:
