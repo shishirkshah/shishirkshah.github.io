@@ -4,7 +4,7 @@ permalink: /research/
 title: Research
 description: Research areas and projects in the Quantitative Imaging Lab
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 # Human Motion and Behavior Analysis
