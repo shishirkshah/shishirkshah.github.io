@@ -43,27 +43,47 @@ profiles:
     image_circular: false # crops the image to make it circular
 
 ---
->
+<p> Past Members</p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Degree</th>
+      <th>Year of Graduation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dustin Nguyen</td>
+      <td>PhD</td>
+      <td>2025</td>
+    </tr>
+    <tr>
+      <td>Khadija Khaldi</td>
+      <td>PhD</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>Fatima Zarin</td>
+      <td>MS</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td>Poonam Beniwal</td>
+      <td>PhD</td>
+      <td>2022</td>
+    </tr>
+    <tr>
+      <td>Miloud Aqqa</td>
+      <td>PhD</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <td>Fatima Daha</td>
+      <td>PhD</td>
+      <td>2020</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Past Members
-| Name              | Degree | Year of Graduation |
-|-------------------|--------|--------------------|
-| Dustin Nguyen     | PhD    | 2025               |
-| Monika Kommineni  | MS     | 2025               |
-| Shireesh Kumar    | MS     | 2025               |
-| Khadija Khaldi    | PhD    | 2023               |
-| Poonam Beniwal    | PhD    | 2022               |
-| Miloud Aqqa       | PhD    | 2020               |
-| Fatima Daha       | PhD    | 2020               |
-| Arko Barman       | PhD    | 2018               |
-| Qazaleh Mirsharif | PhD    | 2017               |
-| Li Wei            | PhD    | 2016               |
-| Pranav Mantini    | PhD    | 2015               |
-| Charu Hans        | PhD    | 2015               |
-| Lijuan Zhao       | PhD    | 2015               |
-| Xu Yan            | PhD    | 2014               |
-| Apurva Gala       | PhD    | 2014               |
-| Hakan Haberdar    | PhD    | 2013               |
-| Khai Tran         | PhD    | 2013               |
-| Benjamin Soibam   | PhD    | 2012               |
-| Xuqing Wu         | PhD    | 2011               |
-|-------------------|--------|--------------------|
