@@ -43,3 +43,26 @@ profiles:
     image_circular: false # crops the image to make it circular
 
 ---
+## Past Members
+| Name              | Degree | Year of Graduation |
+|-------------------|--------|--------------------|
+| Dustin Nguyen     | PhD    | 2025               |
+| Monika Kommineni  | MS     | 2025               |
+| Shireesh Kumar    | MS     | 2025               |
+| Khadija Khaldi    | PhD    | 2023               |
+| Poonam Beniwal    | PhD    | 2022               |
+| Miloud Aqqa       | PhD    | 2020               |
+| Fatima Daha       | PhD    | 2020               |
+| Arko Barman       | PhD    | 2018               |
+| Qazaleh Mirsharif | PhD    | 2017               |
+| Li Wei            | PhD    | 2016               |
+| Pranav Mantini    | PhD    | 2015               |
+| Charu Hans        | PhD    | 2015               |
+| Lijuan Zhao       | PhD    | 2015               |
+| Xu Yan            | PhD    | 2014               |
+| Apurva Gala       | PhD    | 2014               |
+| Hakan Haberdar    | PhD    | 2013               |
+| Khai Tran         | PhD    | 2013               |
+| Benjamin Soibam   | PhD    | 2012               |
+| Xuqing Wu         | PhD    | 2011               |
+|-------------------|--------|--------------------|
