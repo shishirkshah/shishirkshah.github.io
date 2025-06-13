@@ -17,57 +17,32 @@ profiles:
       <p>Department of Computer Science</p>
       <p>3551 Cullen Blvd., PGH 501</p>
       <p>Houston, TX 77-24-3010</p>
-  - align: left
-    image: team/khadija.jpg
+#  - align: left
+#    image: team/khadija.jpg
 #    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+#    image_circular: false # crops the image to make it circular
 #    more_info: >
 #      <p>555 your office number</p>
 #      <p>123 your address street</p>
 #      <p>Your City, State 12345</p>
-  - align: right
-    image: team/fatima.png
+#  - align: right
+#    image: team/fatima.png
 #    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-  - align: left
-    image: team/poonam.jpg
+#    image_circular: false # crops the image to make it circular
+#  - align: left
+#    image: team/poonam.jpg
 #    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-  - align: right
-    image: team/jason.jpg
+#    image_circular: false # crops the image to make it circular
+#  - align: right
+#    image: team/jason.jpg
 #    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-  - align: left
-    image: team/zhenggang.jpg
+#    image_circular: false # crops the image to make it circular
+#  - align: left
+#    image: team/zhenggang.jpg
 #    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+#    image_circular: false # crops the image to make it circular
 
 ---
-<html>
-<head>
-<title>Section and Table</title>
-<style>
-.container {
-  width: 80%;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
-}
-th {
-  background-color: #f2f2f2;
-}
-</style>
-</head>
-<body>
 <div class="container">
 <h2> Past Member</h2>
 <table>
@@ -112,5 +87,3 @@ th {
   </tbody>
 </table>
 </div>
-</body>
-</html>
