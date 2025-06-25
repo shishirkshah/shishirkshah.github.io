@@ -159,7 +159,7 @@ li {
 
 .research-img-fit {
   display: block;
-  max-width: 930px;
+  max-width: 60%;
   height: auto;
   margin: 2em auto;
   border: 10px solid white;
