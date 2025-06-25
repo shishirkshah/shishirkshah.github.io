@@ -14,7 +14,7 @@ QIL was founded by Prof. Shishir K. Shah in 2006 and since then has made signifi
 
 We are grateful for funding from various federal and state agencies including NSF, DHS, ARO, NIJ, NIST, and others.
 
-<img src="{{ '/assets/img/research/QIL-Logo.png' | relative_url }}" alt="Quantitative Imaging Lab" class="research-image">
+<img src="{{ '/assets/img/research/QIL-Logo.png' | relative_url }}" alt="Quantitative Imaging Lab" class="research-image-fit">
 
 Some of our recent research areas are described below.
 
@@ -150,6 +150,16 @@ li {
 .research-img {
   display: block;
   max-width: 100%;
+  height: auto;
+  margin: 2em auto;
+  border: 10px solid white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  clear: both;
+}
+
+.research-img-fit {
+  display: block;
+  max-width: 930px;
   height: auto;
   margin: 2em auto;
   border: 10px solid white;
