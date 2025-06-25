@@ -9,12 +9,12 @@ nav_order: 2
 
 # Quantitative Imaging Lab (QIL)
 
+<img src="{{ '/assets/img/research/QIL-Logo.png' | relative_url }}" alt="Quantitative Imaging Lab" class="research-image">
+
 <p>Quantitative Imaging Laboratory’s (QIL) research is focused on basic and applied research in computer vision, image understanding, pattern recognition, and quantitative microscopy. The mission of this group has been to develop novel methods and systems for image and video analysis that are capable of making human-like decisions. Our passion has been in the pursuit of scientific excellence and innovative engineering, enabling pragmatic solutions to problems of societal impact.</p>
 <p>QIL was founded by Prof. Shishir K. Shah in 2006 and since then has made significant contributions in the broad areas of video analytics, biometrics, human motion and behavior analysis, and quantitative microscopy. Current research initiatives of the laboratory are in person re-identification, human motion and behavioral analysis, and seismic image analysis.</p>
 
 <p>We are grateful for funding from various federal and state agencies including NSF, DHS, ARO, NIJ, NIST, and others.</p>
-
-<img src="{{ '/assets/img/research/QIL-Logo.png' | relative_url }}" alt="Quantitative Imaging Lab" class="research-image-fit">
 
 <p>Some of our recent research areas are described below.</p>
 
