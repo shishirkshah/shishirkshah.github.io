@@ -14,9 +14,7 @@ profiles:
     content: about_shishir.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Department of Computer Science</p>
-      <p>3551 Cullen Blvd., PGH 501</p>
-      <p>Houston, TX 77-24-3010</p>
+      <p>Shishir Shah</p>
   - align: right
     image: team/pranav.jpg
     content: 
@@ -32,7 +30,7 @@ profiles:
     more_info: >
       <p>Samiha Mirza</p>
       <p>Department of Computer Science</p>
-      <p>PhD Candidate</p>
+      <p>Ph.D. Candidate</p>
   - align: right
     image: 
     content:
@@ -40,7 +38,15 @@ profiles:
     more_info: >
       <p>Rahma Aloui</p>
       <p>Department of Computer Science</p>
-      <p>PhD Candidate</p>      
+      <p>Ph.D. Candidate</p>      
+  - align: left
+    image: team/dustin.jpg
+    content:
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Vuong (Dustin) Nguyen</p>
+      <p>Department of Computer Science</p>
+      <p>Ph.D. (2025))</p>      
 #  - align: left
 #    image: team/khadija.jpg
 #    content: about_einstein.md
