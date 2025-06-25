@@ -9,7 +9,7 @@ nav_order: 3
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - align: right
+  - align: left
     image: team/Shishir.jpg
     content: about_shishir.md
     image_circular: false # crops the image to make it circular
@@ -17,6 +17,22 @@ profiles:
       <p>Department of Computer Science</p>
       <p>3551 Cullen Blvd., PGH 501</p>
       <p>Houston, TX 77-24-3010</p>
+  - align: left
+    image: 
+    content:
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Samiha Mirza</p>
+      <p>Department of Computer Science</p>
+      <p>PhD Candidate</p>
+  - align: right
+    image: 
+    content:
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Rahma Aloui</p>
+      <p>Department of Computer Science</p>
+      <p>PhD Candidate</p>      
 #  - align: left
 #    image: team/khadija.jpg
 #    content: about_einstein.md
