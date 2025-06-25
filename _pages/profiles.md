@@ -17,6 +17,14 @@ profiles:
       <p>Department of Computer Science</p>
       <p>3551 Cullen Blvd., PGH 501</p>
       <p>Houston, TX 77-24-3010</p>
+  - align: right
+    image: team/pranav.jpg
+    content: 
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Dr. Pranav Mantini</p>
+      <p>Department of Computer Science</p>
+      <p>Ph.D. (2015)</p>
   - align: left
     image: 
     content:
