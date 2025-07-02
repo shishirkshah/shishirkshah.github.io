@@ -46,7 +46,7 @@ profiles:
     more_info: >
       <p>Vuong (Dustin) Nguyen</p>
       <p>Department of Computer Science</p>
-      <p>Ph.D. (2025))</p>      
+      <p>Ph.D. (2025)</p>      
 #  - align: left
 #    image: team/khadija.jpg
 #    content: about_einstein.md
