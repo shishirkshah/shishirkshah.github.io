@@ -9,7 +9,7 @@ subtitle: Professor and Chair, <a href='https://www.uh.edu/nsm/computer-science/
 
 profile:
   align: right
-  image: team/Shishir.jpg
+  image: team/Shishir2.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>University of Houston</p>

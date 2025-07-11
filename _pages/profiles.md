@@ -10,13 +10,13 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    image: team/Shishir.jpg
+    image: team/Shishir2.jpg
     content: about_shishir.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Shishir Shah</p>
   - align: right
-    image: team/pranav.jpg
+    image: team/pranav2.jpg
     content: 
     image_circular: false # crops the image to make it circular
     more_info: >
